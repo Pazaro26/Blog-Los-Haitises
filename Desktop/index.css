@@ -1,0 +1,302 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    background-color: #455C55;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0vh 3vh 0vh 3vh;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    background-color: #455C55;
+    height: 4vh;
+    color: white;
+}
+
+header h1 {
+    font-weight: 700;
+    font-size: 3vh;
+    cursor: not-allowed;
+}
+
+header ul, a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease; 
+}
+
+.img-title-container img {
+    width: 100%;
+}
+
+main {
+    width: 100%;
+    background: rgb(80,107,99);
+    background: linear-gradient(90deg, rgba(80,107,99,1) 0%, rgba(0,0,0,1) 15%, rgba(0,0,0,1) 85%, rgba(80,107,99,1) 100%);
+    margin-top: -3.05vh;
+}
+
+.text-container {
+    width: 85%;
+    margin: auto;
+    background-color: white;
+    box-sizing: border-box;
+    padding-right: 5vh;
+    padding-left: 5vh;
+    padding-bottom: 10vh;
+    padding-top: 5vh;
+}
+
+.introduction {
+    font-family: 'Poppins', sans-serif;
+}
+
+.introduction h1 {
+    text-transform: uppercase;
+    font-size: 4vh;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+}
+
+.introduction h2 {
+    margin-top: -1vh;
+    font-weight: 300;
+    font-size: 3vh;
+    opacity: 0.9;
+}
+
+.introduction h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    opacity: 0.9;
+}
+
+.introduction p, .hongos-introduction p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 2vh;
+    margin-bottom: 3.5vh;
+}
+
+.hongos-introduction h1 {
+    font-size: 4vh;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 1vh;
+    margin-top: -1.5vh;
+}
+
+.phallus {
+    display: flex;
+    margin-left: -5vh;
+    margin-right: -5vh;
+}
+
+.phallus img {
+    width: 50%;
+}
+
+.phallus-p-bg {
+    background-color: #62746F;
+    padding-right: 5vh;
+    padding-left: 5vh;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    font-size: 2.5vh;
+    font-weight: 300;
+    color: white;
+}
+
+.ganoderma {
+    margin-top: 0.5vh;
+    display: flex;
+    margin-left: -5vh;
+    margin-right: -5vh;
+}
+
+.ganoderma img {
+    width: 50%;
+}
+
+.ganoderma-p-bg {
+    background-color: #62746F;
+    color: white;
+    font-size: 2.5vh;
+    font-weight: 300;
+    padding: 3vh 5vh 3vh 5vh;
+}
+
+.cervinus {
+    margin-top: 0.5vh;
+    display: flex;
+    margin-left: -5vh;
+    margin-right: -5vh;
+}
+
+.cervinus img {
+    width: 50%;
+}
+
+.cervinus-p-bg {
+    background-color: #62746F;
+    font-size: 2.5vh;
+    font-weight: 300;
+    color: white;
+    padding: 3vh 5vh 3vh 5vh;
+}
+
+.versicolor {
+    margin-top: 0.5vh;
+    display: flex;
+    margin-left: -5vh;
+    margin-right: -5vh;
+}
+
+.versicolor img {
+    width: 50%;
+}
+
+.versicolor-p-bg {
+    background-color: #62746F;
+    color: white;
+    font-size: 2.5vh;
+    font-weight: 300;
+    padding: 3vh 5vh 3vh 5vh;
+}
+
+.speciosa {
+    margin-top: 0.5vh;
+    display: flex;
+    margin-left: -5vh;
+    margin-right: -5vh;
+}
+
+.speciosa img {
+    width: 50%;
+}
+
+.speciosa-p-bg {
+    background-color: #62746F;
+    color: white;
+    font-size: 2.5vh;
+    font-weight: 300;
+    padding: 3vh 5vh 3vh 5vh;
+}
+
+.pycnoporus {
+    margin-top: 0.5vh;
+    display: flex;
+    margin-left: -5vh;
+    margin-right: -5vh;
+}
+
+.pycnoporus img {
+    width: 50%;
+}
+
+.pycnoporus-p-bg {
+    background-color: #62746F;
+    color: white;
+    font-size: 2.5vh;
+    font-weight: 300;
+    padding: 3vh 5vh 3vh 5vh;
+}
+
+.visitar-pagina-oficial {
+    margin-top: 0.5vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-right: -5vh;
+    margin-left: -5vh;
+    text-transform: uppercase;
+    color: white;
+}
+
+.top-container {
+    font-size: 2.5vh;
+    font-weight: 700;
+    background-color: #111F4F;
+    padding: 1vh 5vh 1vh 5vh;
+    letter-spacing: 0.15em;
+}
+
+.bottom-container {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease; 
+    cursor: pointer;
+    background-color: #5B6BFC;
+}
+
+.bottom-container a {
+    width: 100%;
+    font-weight: 700;
+    font-size: 3vh;
+    letter-spacing: 0.05em;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease; 
+}
+
+.bottom-container:hover {
+    background-color: #ff9020;
+}
+
+.bottom-container a:hover {
+    letter-spacing: 0.25em;
+}
+
+.guia-hongos {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 3.4vh;
+}
+
+.guia-container {
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.1em;
+    font-size: 2vh;
+    font-weight: 700;
+    cursor: pointer;
+    margin-right: 2vh;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    border: solid #29292B 4px;
+}
+
+.guia-container a {
+    font-weight: 600;
+    color: #29292B;
+}
+
+.bibliografia h1 {
+    font-weight: 2.8vh;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    font-weight: 400;
+    margin-top: -10.5vh;
+    margin-bottom: 8vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+.bibliografia p {
+    font-size: 2.3vh;
+}

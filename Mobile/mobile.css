@@ -1,0 +1,390 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    background-color: white;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0vh 3vh 0vh 3vh;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    background-color: #455C55;
+    height: 6vh;
+    color: white;
+    position:fixed;
+    bottom: 0;
+	left:0;
+	right:0;
+	z-index:1000;
+}
+
+header h1 {
+    font-weight: 700;
+    font-size: 2vh;
+    cursor: not-allowed;
+    margin-left: 3vh;
+}
+
+.ham-container {
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 3vh;
+    outline: none;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 3vh;
+    height: 0.3vh;
+    background-color: white;
+    margin: 6px 0;
+    outline: none;
+}
+
+
+.img-title-container img {
+    width: 100%;
+    margin-top: 1vh;
+}
+
+.text-container {
+    width: 100%;
+    background-color: white;
+    box-sizing: border-box;
+    padding-right: 2.5vh;
+    padding-left: 2.5vh;
+    padding-bottom: 10vh;
+    padding-top: 2.5vh;
+    margin-top: -1vh;
+}
+
+.introduction {
+    font-family: 'Poppins', sans-serif;
+}
+
+.introduction h1 {
+    text-transform: uppercase;
+    font-size: 3vh;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    margin-top: -0.5vh;
+}
+
+.introduction h2 {
+    margin-top: -1vh;
+    font-weight: 300;
+    font-size: 2.5vh;
+    opacity: 0.9;
+}
+
+.introduction h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 1.5vh;
+    opacity: 0.9;
+}
+
+.introduction p, .hongos-introduction p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 2vh;
+    margin-bottom: 3.5vh;
+}
+
+.hongos-introduction h1 {
+    font-size: 3vh;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 1vh;
+    margin-top: -1.5vh;
+}
+
+.phallus {
+    display: flex;
+    flex-direction: column;
+    margin-left: -2.5vh;
+    margin-right: -2.5vh;
+}
+
+.phallus img {
+    width: 100%;
+}
+
+.phallus-p-bg {
+    background-color: #62746F;
+    font-size: 2vh;
+    font-weight: 300;
+    color: white;
+    padding: 1vh 2.5vh 1vh 2.5vh;
+}
+
+.ganoderma {
+    display: flex;
+    flex-direction: column;
+    margin-left: -2.5vh;
+    margin-right: -2.5vh;
+}
+
+.ganoderma img {
+    width: 100%;
+}
+
+.ganoderma-p-bg {
+    background-color: #62746F;
+    font-size: 2vh;
+    font-weight: 300;
+    color: white;
+    padding: 1vh 2.5vh 1vh 2.5vh;
+}
+
+.cervinus {
+    display: flex;
+    flex-direction: column;
+    margin-left: -2.5vh;
+    margin-right: -2.5vh;
+}
+
+.cervinus img {
+    width: 100%;
+}
+
+.cervinus-p-bg {
+    background-color: #62746F;
+    font-size: 2vh;
+    font-weight: 300;
+    color: white;
+    padding: 1vh 2.5vh 1vh 2.5vh;
+}
+
+.versicolor {
+    
+    display: flex;
+    flex-direction: column;
+    margin-left: -2.5vh;
+    margin-right: -2.5vh;
+}
+
+.versicolor img {
+    width: 100%;
+}
+
+.versicolor-p-bg {
+    background-color: #62746F;
+    font-size: 2vh;
+    font-weight: 300;
+    color: white;
+    padding: 1vh 2.5vh 1vh 2.5vh;
+}
+
+.speciosa {
+    display: flex;
+    flex-direction: column;
+    margin-left: -2.5vh;
+    margin-right: -2.5vh;
+}
+
+.speciosa img {
+    width: 100%;
+}
+
+.speciosa-p-bg {
+    background-color: #62746F;
+    font-size: 2vh;
+    font-weight: 300;
+    color: white;
+    padding: 1vh 2.5vh 1vh 2.5vh;
+}
+
+.pycnoporus {
+    display: flex;
+    flex-direction: column;
+    margin-left: -2.5vh;
+    margin-right: -2.5vh;
+}
+
+.pycnoporus img {
+    width: 100%;
+}
+
+.pycnoporus-p-bg {
+    background-color: #62746F;
+    font-size: 2vh;
+    font-weight: 300;
+    color: white;
+    padding: 1vh 2.5vh 1vh 2.5vh;
+}
+
+.visitar-pagina-oficial {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-right: -2.5vh;
+    margin-left: -2.5vh;
+    text-transform: uppercase;
+    color: white;
+}
+
+.top-container {
+    font-size: 1.4vh;
+    font-weight: 700;
+    background-color: #111F4F;
+    padding: 1vh 2.5vh 1vh 2.5vh;
+    letter-spacing: 0.15em;
+}
+
+.bottom-container {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease; 
+    cursor: pointer;
+    background-color: #5B6BFC;
+    padding: 0vh 2.5vh 0vh 2.5vh;
+    font-size: 2.5vh;
+}
+
+.bottom-container a {
+    width: 100%;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    text-decoration: none;
+    color: white;
+}
+
+.bottom-container:hover {
+    background-color: #ff9020;
+}
+
+.guia-hongos {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 3.4vh;
+}
+
+.guia-container {
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: 700;
+    cursor: pointer;
+    padding: 0vh 2.5vh 0vh 2.5vh;
+    border: solid #29292B 4px;
+    width: 100%;
+    text-align: center;
+}
+
+.guia-container a {
+    font-size: 4vh;
+    font-weight: 600;
+    color: #29292B;
+}
+
+.h1 {
+    font-size: 2.65vh;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    margin-top: 3.2vh;
+    margin-bottom: 1.5vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+.p {
+    font-size: 2vh;
+}
+
+.overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(69,92,85,0.8);
+    backdrop-filter: blur(40px);
+    z-index: 2000;
+    animation: appear 0.5s ease-in-out ;
+    color: white;
+    text-transform: uppercase;
+}
+
+.content {
+    text-align: center;
+}
+
+.overlay h1 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    letter-spacing: 0.05em;
+    font-size: 5vh;
+}
+
+.a1 {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+}
+
+.a2 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+}
+
+.a3 {
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+}
+
+.links {
+    letter-spacing: 0.1em;
+    font-weight: 400;
+    font-size: 3vh;
+}
+
+.x-close {
+    text-transform: lowercase;
+    font-weight: 700;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 5vh;
+}
+
+
+.before {
+    display: none;
+}
+
+@keyframes appear {
+    from {
+        top: 100%;
+        transform: translate(-50%);
+    }
+    to {
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
